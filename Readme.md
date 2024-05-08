@@ -1,12 +1,12 @@
-# SMUG Planner: A Safe Multi-Goal Planner for Mobile Robots in Challenging Environments
+# [SMUG Planner: A Safe Multi-Goal Planner for Mobile Robots in Challenging Environments](https://arxiv.org/pdf/2306.05309)
 ![demo](./gif/demo.gif)
 
 If you use this project for your research, please cite it using the following BibTeX entry:
 
 ```
-@ARTICLE{Chen23,
+@ARTICLE{smug2023chen,
     author = {Chen, Changan and Frey, Jonas and Arm, Philip and Hutter, Marco},
-    journal={under review for IEEE Robotics and Automation Letters}, 
+    journal= {IEEE Robotics and Automation Letters}, 
     title = {SMUG Planner: A Safe Multi-Goal Planner for Mobile Robots in Challenging Environments},
     year = {2023},
 }
