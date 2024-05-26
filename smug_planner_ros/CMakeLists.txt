@@ -21,7 +21,20 @@ REQUIRED
     tf2_ros
     voxblox_msgs
     voxblox_ros
+    grid_map_msgs
 )
+
+#OMPL
+# set(OMPL_ROOT "/home/december/third_party_libraries/ompl")
+# set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} ${OMPL_ROOT})
+# # set(OMPL_CMAKE_ROOT "/home/december/third_party_libraries/ompl/share/ompl/cmake")
+# # set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} ${OMPL_CMAKE_ROOT})
+# find_package(ompl REQUIRED)
+# include_directories(${OMPL_INCLUDE_DIR})
+# message(STATUS "{OMPL_INCLUDE_DIR} is ${OMPL_INCLUDE_DIR}")
+
+include_directories(/home/december/third_party_libraries/ompl/include/ompl-1.6)
+# link_directories(/home/december/third_party_libraries/ompl/share)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
